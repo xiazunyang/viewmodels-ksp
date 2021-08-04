@@ -1,6 +1,6 @@
 jdk:
-  - jdk8
+  - openjkd11
 install:
-  - ./gradlew build
-  - ./gradlew tasks --all
-  - ./gradlew clean :plugin:publishToMavenLocal -xtest
+  - ./gradlew build;
+  - ./gradlew tasks --all;
+  - ./gradlew :plugin:publishToMavenLocal -xtest
