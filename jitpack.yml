@@ -1,4 +1,4 @@
 jdk:
   - jdk8
 install:
-  - ./gradlew clean plugin:publishToMavenLocal -xtest -xlint
+  - ./gradlew clean :plugin:publishToMavenLocal -xtest
