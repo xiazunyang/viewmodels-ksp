@@ -38,7 +38,7 @@ class ViewModelsGenerator(
             }
 
         val packageName = classDeclaration.packageName.asString()
-        val classSimpleName = classDeclaration.simpleName.asString() + "Ext"
+        val classSimpleName = className + "s"
         //获取应该写入的文件流
         val writer = environment.codeGenerator.createNewFile(Dependencies(false), packageName, classSimpleName)
             .bufferedWriter()
