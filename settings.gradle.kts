@@ -13,4 +13,3 @@ pluginManagement {
 
 rootProject.name = "viewmodels-ksp"
 include(":plugin")
-include(":main")
